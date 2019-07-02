@@ -3,16 +3,16 @@ This is a script that extracts most recent data using Twitter API from Twitter. 
 
 (ProTip: Use virtualenv or venv and perform following action in your environment.)
 
-Step 1:
+*Step 1:*
 pip install -r requirements.txt
 (Resolve any errors that you get by installing corresponding libraries in the OS.)
 
-Step 2:
+*Step 2:*
 Edit automated_sentiment.py -- Go to API KEY credentials part and paste your details.
 Edit your search query - currently it is "mangoes" - you can replace it with any username, text or hashtag.
 Edit the count of tweets to retrieve. Currently it is 50. (Free developer account allows 350 tweets extraction per day.)
 
-Step 3:
+*Step 3:*
 python automated_sentiment.py
 
 You will see a pie chart of positive negative and neutral tweets of all the data in the excel sheet created.
