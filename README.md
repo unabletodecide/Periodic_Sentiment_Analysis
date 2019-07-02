@@ -3,9 +3,9 @@ This is a script that extracts most recent data using Twitter API from Twitter. 
 
 (ProTip: Use virtualenv or venv and perform following action in your environment.)
 
-*Step 1:*
+###Step 1:
 pip install -r requirements.txt
-(Resolve any errors that you get by installing corresponding libraries in the OS.)
+<br>(Resolve any errors that you get by installing corresponding libraries in the OS.)
 
 *Step 2:*
 Edit automated_sentiment.py -- Go to API KEY credentials part and paste your details.
