@@ -16,10 +16,10 @@ else:
 
 
 # Twitter credentials
-consumer_key = "V0C40NdV70zCiBKzloKuwtXQh"
-consumer_secret = "iDrXTYG1vWUGU3JRwSDZdUnAAILm4rIFg03kwyCeRXe3NlkAdc"
-access_token = "39996035-A6tX4WMifKSvSOLbbFfgD0HeBNU71lsZDtPi7yPPQ"
-access_token_secret = "0QdM4k7Lqkw8YGWRGkgoJRUISdUslKx9U28cGztIEgh3P"
+consumer_key = "Your Key here"
+consumer_secret = "Your Key here"
+access_token = "Your Key here"
+access_token_secret = "Your Key here"
 
 # set up an instance of Tweepy
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
