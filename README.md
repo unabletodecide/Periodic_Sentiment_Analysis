@@ -8,11 +8,16 @@ This is a script that extracts most recent data using Twitter API from Twitter. 
 <br>(Resolve any errors that you get by installing corresponding libraries in the OS.)
 
 #Step 2:
+<br> Run python3 in terminal
+<br>import nltk
+<br>nltk.download('vader_lexicon')
+
+#Step 3:
 <br>Edit automated_sentiment.py -- Go to API KEY credentials part and paste your details.
 <br>Edit your search query - currently it is "mangoes" - you can replace it with any username, text or hashtag.
 <br>Edit the count of tweets to retrieve. Currently it is 50. (Free developer account allows 350 tweets extraction per day.)
 
-#Step 3:
+#Step 4:
 <br>python automated_sentiment.py
 <br>You will see a pie chart of positive negative and neutral tweets of all the data in the excel sheet created.
 ![alt text](https://raw.githubusercontent.com/unabletodecide/Periodic_Sentiment_Analysis/master/Figure_1.png)
