@@ -15,6 +15,7 @@ This is a script that extracts most recent data using Twitter API from Twitter. 
 #Step 3:
 <br>python automated_sentiment.py
 <br>You will see a pie chart of positive negative and neutral tweets of all the data in the excel sheet created.
+![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
 <br>Next time you run Step 3, it will automatically append data to the same excel sheet.
 <br>
 <br>If you run it every hour (if API allows) or every 6 hours - you will get a consolidated list of all tweets about your search query made during the entire day.
